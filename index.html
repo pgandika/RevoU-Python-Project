@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>RevoU Python Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<h1><strong>RevoU Python Project</strong>
+				</div>
+				<div class="inner">
+					<a href="https://pgandika.github.io/Andika_Gumilang_Portfolio/" class="button small">Home</a>
+					<a href="https://pgandika.github.io/Andika_Gumilang_Portfolio/" class="button small">Projects</a>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h1><strong>RevoU Python Project</strong></h1>
+						</header>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/python_assignment_cover.jpg"></span></div>
+						</div><br>
+						
+						<h2>Project Summary</h2>
+						<p>Improving the Understanding of Python function to help read, gather, manipulate, and analyze the data and generate useful insights to drive an informed decision-making process, and this 3 main things that I did in this project :</p>
+						<ol>
+							<li>Conducted data cleaning and preparation such as removing irrelevant values, handling missing data, removing duplicates, handling outlier, string manipulation,time series manipulation, combine & merge datasets and feature engineering.</li>
+							<li>Conducted exploratory data such as data aggregation, descriptive statistic, analyzing using visualization</li>
+							<li>Conducted Cluster Analysis such as created user segmentation using k-means clustering, cluster interpretation, recommendation based on cluster result</li>
+					  	</ol>
+						<p><h2>Project Files</h2></p>
+						For a more comprehensive analysis and visualization, please open the project files.
+						<ul>
+							<li><a href="https://docs.google.com/presentation/d/1pRpn23UI_6VJ_KfQhMphPcen7igTfLsKGw2qV0H8Nbo/edit">Presentation Deck</a></li>
+							<li><a href="https://colab.research.google.com/drive/1B4KwdsJ2y2ZJG_APd1-Iceep2fzmaF72">Google Colab</a></li>
+							<li><a href="https://github.com/pgandika/RevoU-Python-Project">Github Repository</a></li>
+						</ul>
+					</section>
+				
+				<!-- Two -->
+					<section id="two">
+						<h2><strong>Project Background, Data scope, Dataset & Situation</strong></h2>
+						<h2>Project Background</h2>
+							<p>Python is the most challenging yet also exciting data programming languages. In this assignment we practiced python skills such as data cleaning and exploratory data analysis using python code. Also, we practiced more advanced python skills such as user segmentation using cluster analysis.  We used Google Collab as a python notebook tools.</p>
+						<h2>Data Scope</h2>
+							<p>For this assignment we used data from kaggle and provided by olist, brazilian e-commerce company Customers Dataset. The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. Its features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers. We also released a geolocation dataset that relates Brazilian zip codes to lat/lng coordinates.</p>
+						
+						<h2>Dataset</h2>
+						<h4>1. <a href="https://docs.google.com/spreadsheets/d/1mSLuyaB3OEItKrRrTLvLNfesyzisd6v5rLRwcTwM0Sw/edit?usp=sharing">Order_dataset</a></h4>
+							<p>Provided by RevoU faculty drive as csv. order_dataset consist of datetime summary of their transaction in company.
+								<br>
+								Order Data Definition :<br>
+							<ol>
+								<li>order_id &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;: Order's unique identifier.</li>
+								<li>customer_id	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;: Customer's unique identifier</li>
+								<li>order_status &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;: Customer's order status</li>
+								<li>order_purchase_timestamp &emsp;&emsp;&nbsp;&nbsp;: Customer's timestamp order</li>
+								<li>order_approved_at &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;: Customer's approved order time</li>
+								<li>order_delivered_carrier_date	&nbsp;&nbsp;&nbsp;&emsp;: Time of Order's delivered to carrier</li>
+								<li>order_delivered_customer_date	&nbsp;&nbsp;: Time of Order's delivered to customer.</li>
+							</ol>
+							<br>
+
+							<h4>2. <a href="https://docs.google.com/spreadsheets/d/1me6YtS1ZlvjIiWdHcNP0XypgnV0wG-xt7k9SfARyJ8E/edit?usp=sharing">Customers_dataset</a></h4>
+							<p>Provided by RevoU faculty drive as csv which consist of order id.The Customer Data  consist of payment summary of company's customers.
+								<br>
+								Customer Data Definition:<br>
+							<ol>
+								<li>customer_id&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;: Customer's unique identifier</li>
+								<li>customer_unique_id&emsp;&emsp;&emsp;&nbsp;: Customer's unique unique identifier</li>
+								<li>customer_zip_code_prefix&nbsp;&nbsp;: Customer's zip postal code</li>
+								<li>customer_city&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;: Customer's city</li>
+								<li>customer_state&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;: Customer's state</li>
+							</ol>
+							<br>
+							<h4>3. <a href="https://docs.google.com/spreadsheets/d/1YH1jFCNhKxIg5WEfK5q9392pdVUXkuIp4eOI9r31thQ/edit?usp=sharing">Order_payments_dataset</a></h4>
+							<p>Provided by RevoU faculty drive as csv which consist of customer id. The Order Paymentconsist of company's customers data summary.
+								<br>
+								Order Payment Data Definition:<br>
+							<ol>
+								<li>order_id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Order's unique identifier</li>
+								<li>payment_sequential&nbsp;	: Customer's payment sequential</li>
+								<li>payment_type	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	: Customer's payment type</li>
+								<li>payment_installments: Customer's payment installments</li>
+								<li>payment_value	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	: Customer's payment value</li>
+							</ol>
+							<br>
+							<h2>Situation</h2>
+							<p>Gustavo just started an e-commerce startup based in Brazil that recently opened an online website to sell their product. Fortunately, Gustavo is launcing their website when the covid-19 hits and making them grow faster than ever. However, Gustavo is still not using targeted marketing which hurts their marketing budget as only a fraction of their user comes back to their website. Gustavo needs your help to increase their marketing conversion rate by doing more targeted marketing using customer segmentation so that it will not hurt their budget.</p>
+						
+					</section>
+
+				<!-- Four -->
+				<section id="four">
+					<h2>Data Analysis</h2>
+					<p>Note : Only Descriptive Analytics,EDA & Visualization,Customer Segmentation shown to simplify the analysis explanation. For further detail Check Google Colab File in Project file section above</p>
+
+						<h3>Descriptive Analytics</h3>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4 col-12-xsmall"><span class="image fit"><img src="images/descriptive analystics1.JPG"></span></div>
+							<div class="col-4 col-12-xsmall"><span class="image fit"><img src="images/descriptive analystics2.JPG"></span></div>
+							<div class="col-4 col-12-xsmall"><span class="image fit"><img src="images/descriptive analystics2.JPG"></span></div>
+						</div><br>
+						<p>
+							<li>count &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: it contains the total amount of data in the column</li>
+							<li>mean &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: it contains mean of data in the column</li>
+							<li>std &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: standard deviation is a way to measure how far the average value lies from the mean. On the data above means that<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;payment_instalment's data has 2.73 point away from its mean, and payment_value's data has 177 point away from its <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mean</li>
+							<li>min &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: it contain minimum value of data in the column</li>
+							<li>max &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: it contain maximum value of data in the column</li>
+							<li>25% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 25% percentile is Q1 in the column, it contain the middle value of data between minimum value and median. Q1 for<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; payment_instalment is 1, and Q1 of payment_value is 61.82</li>
+							<li>50% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 50% percentile is the median of data in the column. Median for payment_instalment is 2, and Median for payment_value <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;105.01</li>
+							<li>75% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 75% percentile is Q3 in the column, it contain the middle value of data between median and maximum value. Q3 for<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; payment_instalment is 4, and Q3 of payment_value is 175.78</li>
+							<li>skew  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: payment_instalment's column has skew value 1.64, its positive value so it will be a positive skewness chart, and the<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; value is more than 1 which mean the chart will be highly skewed. Payment_value's column has positive 4.22 which<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  mean the chart is positive highly skewed</li>
+							<li>var &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Its talking about the spread between numbers in a data set. Variance is a measurement to determine how far each<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; number is from the mean and from every other number in the set. Payment_instalment's data has 7.45 point, normaly<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  std is square root of var, the var point is below std square of payment_installment which mean the data will be narrow<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  mean and each other. Payment_value's data has 31,328.15 point, its far exceed std square of payment_value which<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  mean the data will spread far from mean and distribution chart will be more broad</li>
+							<li>kurt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Payment_instalment's has positive 2.77 point of kurtosis, its exceed +1 which mean the distribution chart data would be<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; peaked (Leptokurtic), and Payment_value's data has positive 25.15 point which mean the distribution chart data would<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; be so peaked (Leptokurtic)</li>
+							<li>0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Its contain mode on each column
+							<li>CV&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: coefficient of variation is the ratio between the standard deviation and the mean. Payment_instalment's has 91.86% cov<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; which mean the data has greater the level of dispersion around the mean. Payment_value's has 114.53%, its more then<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100%, and its simply means that the standard deviation exceed the mean value</li>	
+							<li>range&nbsp;&nbsp;&nbsp;&nbsp; : its contain the range of data on each column</li>	
+						</p>
+						<p><h3>Exploratory Data Analysis (EDA)</h3></p>
+						<p><b>Monthly total order</b></p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-12"><span class="image fit"><img src="images/explore1.jpg"></span></div>
+						</div><br>
+						<br><p>The Number of Order Per Month Histogram tell us that the total order month by month is gradualy growing from October 2016 and reaching its most peak point at November 2017. November 2017 is recorded too as the highest growth rate month. But after reach its peak, the growth in number of orders per moonth tends to stagnate till the last recorded data on August 2018.</p>
+
+						<p><b>Busiest day of week</b></p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-10"><span class="image fit"><img src="images/explore2.jpg"></span></div>
+						</div><br>
+						<br><p>The Busiest Day of Week Histogram tell us that trend orders mostly occur in the Midweek (Midweek is the middle of the week that roughly the period from Tuesday to Thursday), with Tuesday setting a record with the day with the most orders</p>
+						
+						
+						<p><b>Percentage payment type users</b></p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-6"><span class="image fit"><img src="images/explore3.jpg"></span></div>
+						</div><br>
+						<br><p>According to the Payment Type pie chart, Gustavo's customers are dominated by credit cards users with 75.9% (or 73,896 total users) following by boleto with 19.9% (or 19,376 total users), voucher 2.69% (or 2,615 total users), and debit card 1.54% (or 1,501 total users)</p>
+						
+						<p><b>Delivery Performance</b></p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-6"><span class="image fit"><img src="images/explore4.JPG"></span></div>
+						</div><br>
+						<br><p>The data below is an alert information for Mr. Gustavo to prepare preventive measures to avoid the anger of customers whose orders are late. The delay data can be used for evaluation, which courier has problems or is often late, restructuring inventory warehouse, and workflow
+							<br>
+							According to the Delivery Performance pie chart below, Gustavo's performance recorded 7.91% or 7114 order late during these almost 2 year dataset record</p>
+						
+						<p><b>Late Orders</b></p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-10"><span class="image fit"><img src="images/explore5.png"></span></div>
+						</div><br>
+						<br><p>Filled line chart below describe delays in delivery orders often occur during peak season periods</p>
+						
+						<p><b>Monthly sales growth</b></p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-10"><span class="image fit"><img src="images/explore6.png"></span></div>
+						</div><br>
+						<br><p>In the sales growth chart below, there is one point that can be highlighted for evaluation, in December 2017, where sales fell -22.32% from the previous month. Gustavo and the team can dig up data on what happened that month and prepare preventive steps (such as a new year promo campaign, flash sale, bundling, or preparing special products) so that it doesn't happen again in December 2018.</p>
+						
+						<p><h3>Customer Segmentation</h3></p>
+						<p><b>Segmentation by Customer Geography</b></p>
+
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-10"><span class="image fit"><img src="images/explore7.png"></span></div>
+						</div><br>
+						<br><p>Pareto chart above explain 80/20 rules, that 80% of customer comes from 20% states (6 cities states) from total 27 state, that is Sao Paulo (SP), Rio de Janeiro (RJ), MInas Gerais (MG), Rio Grande do Sul (RS), Parana (PR), Santa Catarina (SC), Bahia (BA). Using 80/20 rules simply means that most of Mr.Gustavo business around 80% comes from customers from 6 states above.
+							<br>
+							It can be use to remind Mr.Gustavo about his time management when managing marketing. Mr.Gustavo should focus his time on areas where 80% of customers are there (marketing campaign to stabilize or increase retention should be focused on 20% states above)
+							<br>
+							On the other hand, Mr.Gustavo can use this chart for insight to boosting advertising or pushing his marketing team to penetrate market and increase sales outside of those states, if he has more marketing funds.</p>
+						
+						<p><b>Segmentation by Customer Behaviour</b></p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-6 col-12-xsmall"><span class="image fit"><img src="images/explore8.JPG"></span></div>
+							<div class="col-6 col-12-xsmall"><span class="image fit"><img src="images/explore9.JPG"></span></div>
+							<div class="col-6 col-12-xsmall"><span class="image fit"><img src="images/explore10.JPG"></span></div>
+						</div><br>
+						<p>The elbow method show 4 clusters is the optimal cluster number,and The silhouette analysis also show 2 clusters is the optimal cluster number
+							<br> we use 4 cluster form elbow to se 4 cluster to make it more varied
+						</p>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5 col-12-xsmall"><span class="image fit"><img src="images/explore11.JPG"></span></div>
+							<div class="col-4 col-12-xsmall"><span class="image fit"><img src="images/explore13.JPG"></span></div>
+							<div class="col-4 col-12-xsmall"><span class="image fit"><img src="images/explore14.png"></span></div>
+							<div class="col-7 col-12-xsmall"><span class="image fit"><img src="images/explore123.JPG"></span></div>
+						</div><br>
+
+						<p>On spender type above we can see that Gustavo's customer is dominated by 59.2% low spender, folowing by lower-mid spender with 26.2%, upper-mid spender 11.4%, and high spender 3.13%.In terms of advertising/campaign needs, while focusing outside 80% state which dominate the order, Gustavo can also focusing target to specific demographics by their spending type customers in each states
+						</p>
+
+						
+				</section>
+
+				<!-- Five -->
+				<section id="five">
+					<h2>Recommendation</h2>
+					<ol>
+							<li>The market predominantly populated with middle class, <b>using discount or promo would be helpful to boost sales.</b></li>
+							<li>The real sultans also have significant amount of population, and these people tend to be more loyal and come back to buy more. <b>Increasing benefit or creating customer loyalty program campaign </b> would be helpful to retain these customers since they are can be quite a money maker.</li>
+					</ol>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/andika-gumilang-6aa09b113/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/pgandika" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:andikapg19@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Andika Putra Gumilang</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
